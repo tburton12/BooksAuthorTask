@@ -9,10 +9,10 @@
     {% for book in books %}
         <tr>
             <td>{{ book.title }} </td>
-            <td>{{ book.author }}</td>
+            <td>{{ book.author.name }}</td>
+            <td>{{ book.author.surname }}</td>
         </tr>
     {% endfor %}
 </table>
-
 </body>
 </html>
